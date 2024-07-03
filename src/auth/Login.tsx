@@ -52,7 +52,9 @@ export function Login() {
     <div className="flex justify-center items-center h-screen bg-gray-100">
       <Card className="mx-auto max-w-sm">
         <CardHeader className="space-y-1">
-          <CardTitle className="text-2xl font-bold">React Admin Panel</CardTitle>
+          <CardTitle className="text-2xl font-bold">
+            React Admin Panel
+          </CardTitle>
           <CardDescription>
             Enter your email and password to login to your account
           </CardDescription>
