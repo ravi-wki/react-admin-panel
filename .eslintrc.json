@@ -1,0 +1,23 @@
+{
+  "extends": ["react-app", "plugin:prettier/recommended"],
+  "plugins": ["import"],
+  "rules": {
+    "prettier/prettier": "error",
+    "import/no-unresolved": "error",
+    "react/react-in-jsx-scope": "error"
+  },
+  "settings": {
+    "react": {
+      "version": "detect"
+    },
+    "import/resolver": {
+      "node": {
+        "extensions": [".js", ".jsx", ".ts", ".tsx"]
+      },
+      "alias": {
+        "map": [["@", "./src"]],
+        "extensions": [".js", ".jsx", ".ts", ".tsx"]
+      }
+    }
+  }
+}
